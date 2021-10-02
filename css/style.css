@@ -1,0 +1,93 @@
+/* General styling for all pages comes here...! */
+:root {
+  /*Main Color*/
+  --main-primary: #6feb82;
+  --main-primary-variant: #acffb2;
+  --main-primary-variant2: #dfffca;
+  --secondary-slate-grey: #748a9d;
+  --secondary-slate-grey-variant: #a6bcd0;
+  --secondary-slate-grey-variant1: #f0f4f8;
+  --secondary-slate-grey-variant2: #dbe2ed;
+  --white: #fff;
+  --black: #000;
+
+  /*Text displays*/
+  --text-header: 1.5rem;
+  --text-lg: 2.188rem;
+  --text-md: 1rem;
+  --text-sm: 0.875rem;
+  --font-fam: "Archivo Narrow", san-serif;
+
+  /*font weight displays*/
+
+  --font-regular: 400;
+  --font-regular-slab: 500;
+  --font-medium: 600;
+  --font-bold: 700;
+}
+
+*,
+html {
+  margin: 0;
+  padding: 0;
+  font-weight: var(--font-regular);
+  font-family: var(--font-fam);
+  line-height: 1.3;
+  font-size: var(--text-md);
+  color: var(--secondary-slate-grey);
+  /* font-family: "Poppins", sans-serif; */
+}
+.text-header {
+  font-size: var(--text-header);
+  color: var(--secondary-slate-grey);
+  text-align: center;
+  font-weight: var(--font-medium);
+}
+
+.text-normal{
+    text-align: center;
+    margin-top: .5rem;
+}
+
+a {
+  font-weight: var(--font-bold);
+  text-decoration: none;
+  color: var(--secondary-slate-grey-variant);
+  display: block;
+  text-align: center;
+}
+.btn {
+  border: none;
+  padding: 15px;
+}
+.btn-primary {
+  background-color: var(--main-primary);
+  color: var(--white);
+  border-radius: 36px;
+  width: 100%;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+  font-size: 14px;
+}
+.btn-primary:hover {
+  background-color: var(--main-primary-variant);
+  color: var(--white);
+  border-radius: 36px;
+  width: 100%;
+  outline: none;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.top--container {
+  margin: 0 auto;
+  padding: 1.875rem;
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+  -webkit-box-shadow: 0 8px 6px -6px black;
+  -moz-box-shadow: 0 8px 6px -6px black;
+  box-shadow: 0 12px 26px -6px rgba(0, 0, 0, 0.2);
+  /* box-shadow: 5px 0 7px -5px black; */
+  padding-bottom: 1.875rem;
+}
