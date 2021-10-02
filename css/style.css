@@ -94,13 +94,13 @@ a {
 }
 
 .store__navigation {
-  /* position: absolute; */
-  margin-top: 3rem;
+  /* margin-top: 3rem;
   padding: 0.7rem;
   width: 100%;
   position: fixed;
   bottom: 0;
-  background-color: white;
+  background-color: white; */
+  margin-top: 2rem;
 }
 .store__navigation ul {
   display: flex;
